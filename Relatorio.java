@@ -1,6 +1,6 @@
 public class Relatorio {
     public void getRelatorio(Funcionario funcionario, Pessoa pessoa) {
-        System.out.println("Relatório de cadastro: ");
+        System.out.println("Relatório de cadastro de " + pessoa.tipoCadastro);
         System.out.println("Nome: " + pessoa.getNome());
         System.out.println("Endereço: " + pessoa.getEndereco());
         

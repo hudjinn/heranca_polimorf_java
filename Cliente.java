@@ -1,7 +1,10 @@
 public class Cliente  extends Pessoa{
 
 	private int idCliente;
-
+    public Cliente(){
+        tipoCadastro = "Cliente";
+    }
+    
 	public void setIdCliente(int novoidCliente) {
 		idCliente = novoidCliente;
 	}
@@ -9,7 +12,8 @@ public class Cliente  extends Pessoa{
 	public int getIdCliente(){
 		return idCliente;
 	}
-    @Override
+
+
     public String getIdentificacao() {
         return "CPF do Cliente: " + getCpf();
     }

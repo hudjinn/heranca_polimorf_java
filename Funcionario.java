@@ -2,7 +2,9 @@ public class Funcionario extends Pessoa{
 	
 	private int idFunc;
 	private String cargo;
-
+	public Funcionario(){
+	    tipoCadastro = "Funcionário"; 
+	}
 	public void setIdFunc(int novoId) {
 	idFunc = novoId;
 	}

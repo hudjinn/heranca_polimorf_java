@@ -5,7 +5,8 @@ public abstract class Pessoa {
 	private String email;
 	private String cpf;
 	private String dataNascimento;
-
+    public String tipoCadastro;
+    
 	public void setNome(String novoNome) {
 	nome = novoNome;
 	}
